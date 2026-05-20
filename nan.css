@@ -1,0 +1,9 @@
+div {
+    padding: 200px;
+    margin: 200px;
+}
+.box1 {
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
