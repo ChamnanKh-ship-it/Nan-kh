@@ -1,42 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cham nan</title>
+  <title>My Website</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-  <div class="wrapper">
-    <form action="">
-      <h1>Login</h1>
-      <div class="input-box">
-        <input type="text" placeholder="Username"
-        required>
-        <i class='bx bxs-user'>
-        </i>
-      </div>
-      <div class="input-box">
-        <input type="password"
-        placeholder="password" required>
-       <i class='bx bxs-lock-alt' >
-       </i> 
-      </div>
 
-      <div class="remember-forgot">
-        <label><input type="checkbox"> Show password
-        </label>
-        <a href="#">Forgot password?</a>
-      </div>
+  <header>
+    <a href="#" class="logo">Logo</a>
 
-      <button type="submit" class="btn">login</button>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Collections</a>
+      <a href="#">Contact</a>
+    </nav>
 
-      <div class="register-link">
-        <p>Don't have an account? <a 
-          href="#">Register</a></p>
+    <div class="user-auth">
+      <div class="profile-box" style="display: none;">
+        <div class="avater-circle">C</div>
+        <div class="dropdown">
+          <a href="#">my Account</a>
+          <a href="#">logout</a>
+        </div>
       </div>
-      </form>
+      <button type="button" class="login-btn-modal">Login</button>
+    </div>
+  </header>
+
+  <section>
+    <h1>Hey developer!</h1>
+  </section>
+
+  <div class="alert-box">
+    <div class="alert success">
+      <i class='bx bxs-check-circle'></i>
+      <span>Registration successful</span>
+    </div>
   </div>
+
+  <div class="auth-modal">
+    <button type="button" class="close-btn-modal"><i class='bx bx-x'></i></button>
+
+    <div class="form-box login">
+      <h2>login</h2>
+      <form action="">
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Email" required>
+          <i class='bx bxs-envelope'></i>
+          </div>
+          <div class="input-box">
+          <input type="password" name="password" placeholder="Password" required>
+          <i class='bx bxs-lock-alt'></i>
+          </div>
+          <button type="submit" name="login_btn" class="btn">Login</button>
+          <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+      </form>
+    </div>
+
+     <div class="form-box register">
+      <h2>Register</h2>
+      <form action="">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="name" required>
+          <i class='bx bx-user'></i>
+          </div>
+          <div class="input-box">
+          <input type="email" name="email" placeholder="Email" required>
+          <i class='bx bxs-envelope'></i>
+          </div>
+          <div class="input-box">
+          <input type="password" name="password" placeholder="Password" required>
+          <i class='bx bxs-lock-alt'></i>
+          </div>
+          <button type="submit" name="register_btn" class="btn">Register</button>
+          <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
