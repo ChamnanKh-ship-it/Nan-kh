@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LCNLive – Make New Friends. A safe and warm community to share your honest thoughts and feelings." />
+  <title>LCNLive – Make New Friends</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="./img/img.jpg1.jpg">
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">🔥</span>
+        <span class="nav__logo-text">LCNLive</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#how"      class="nav__link">How It Works</a>
+        <a href="#reviews"  class="nav__link">Reviews</a>
+        <a href="#download" class="nav__link">Download</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="#download" class="btn btn--primary btn--sm">Get the App</a>
+        <button class="nav__burger" id="burger" aria-label="Toggle menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="nav-drawer" id="navDrawer">
+    <button class="nav-drawer__close" id="drawerClose" aria-label="Close menu">&times;</button>
+    <a href="#features" class="nav-drawer__link">Features</a>
+    <a href="#how"      class="nav-drawer__link">How It Works</a>
+    <a href="#reviews"  class="nav-drawer__link">Reviews</a>
+    <a href="#download" class="nav-drawer__link">Download</a>
+  </div>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="pill">✨ #1 Friend-Making App</span>
+          <h1 class="hero__title">Make New Friends<br /><span class="gradient-text">Anytime, Anywhere</span></h1>
+          <p class="hero__desc">
+            LCNLive is a safe and warm community where you can share your honest thoughts and feelings.
+            Connect with cool and caring people through shared interests, games, and avatars.
+          </p>
+          <div class="hero__btns">
+            <a href="#download" class="btn btn--primary btn--lg">
+              <span>&#xf8ff;</span> App Store
+            </a>
+            <a href="#download" class="btn btn--dark btn--lg">
+              <span>&#9654;</span> Google Play
+            </a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong>1M+</strong><span>Downloads</span>
+            </div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat">
+              <strong>4.8★</strong><span>App Store</span>
+            </div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat">
+              <strong>150+</strong><span>Countries</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__phone">
+          <div class="phone-mockup">
+            <div class="phone-mockup__screen">
+              <div class="app-preview">
+                <div class="app-preview__header">
+                  <span class="app-preview__logo">🔥 LCNLive</span>
+                  <span class="app-preview__notif">🔔</span>
+                </div>
+                <div class="app-preview__banner">
+                  <div class="app-preview__banner-text">
+                    <p class="app-preview__greeting">Hey there 👋</p>
+                    <p class="app-preview__sub">Find your match today</p>
+                  </div>
+                  <div class="app-preview__avatars">
+                    <div class="avatar avatar--a">😊</div>
+                    <div class="avatar avatar--b">😎</div>
+                    <div class="avatar avatar--c">🥰</div>
+                  </div>
+                </div>
+                <div class="app-preview__tabs">
+                  <span class="tab active">Home</span>
+                  <span class="tab">Party</span>
+                  <span class="tab">For You</span>
+                  <span class="tab">Chat</span>
+                </div>
+                <div class="app-preview__cards">
+                  <div class="match-card">
+                    <div class="match-card__avatar">🧑‍🎤</div>
+                    <div class="match-card__info">
+                      <strong>Alex, 22</strong>
+                      <span>Music lover 🎵</span>
+                    </div>
+                    <button class="match-card__btn">Connect</button>
+                  </div>
+                  <div class="match-card">
+                    <div class="match-card__avatar">👩‍🎨</div>
+                    <div class="match-card__info">
+                      <strong>Mia, 20</strong>
+                      <span>Art &amp; travel ✈️</span>
+                    </div>
+                    <button class="match-card__btn">Connect</button>
+                  </div>
+                  <div class="match-card">
+                    <div class="match-card__avatar">🧑‍💻</div>
+                    <div class="match-card__info">
+                      <strong>Sam, 24</strong>
+                      <span>Tech &amp; gaming 🎮</span>
+                    </div>
+                    <button class="match-card__btn">Connect</button>
+                  </div>
+                </div>
+                <div class="app-preview__bottomnav">
+                  <span>🏠</span><span>🎉</span><span>❤️</span><span>💬</span><span>👤</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section__head">
+          <span class="pill pill--purple">Features</span>
+          <h2 class="section__title">Everything You Need to Connect</h2>
+          <p class="section__sub">Experience emotional communication comfortably through diverse online interactive features.</p>
+        </div>
+        <div class="features__grid">
+
+          <div class="feature-card feature-card--wide">
+            <div class="feature-card__icon" style="background:#fde68a;">🎉</div>
+            <div class="feature-card__body">
+              <h3>Party Chat</h3>
+              <p>Join lively group voice rooms and party with people who share your vibe. Dance, sing, or just hang out.</p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" style="background:#ddd6fe;">🎮</div>
+            <h3>Voice Games</h3>
+            <p>Play fun interactive voice games with new friends and break the ice instantly.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" style="background:#fbcfe8;">🔮</div>
+            <h3>Soul Game</h3>
+            <p>Discover your soul match through personality-based games and deep conversations.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" style="background:#bbf7d0;">🧑‍🚀</div>
+            <h3>Avatars</h3>
+            <p>Create a unique avatar that represents you. Customize your look and express yourself freely.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon" style="background:#bae6fd;">💬</div>
+            <h3>1-on-1 Chat</h3>
+            <p>Private messaging with text, voice, stickers, and gifts to deepen your connections.</p>
+          </div>
+
+          <div class="feature-card feature-card--wide">
+            <div class="feature-card__icon" style="background:#fecaca;">❤️</div>
+            <div class="feature-card__body">
+              <h3>For You Feed</h3>
+              <p>A personalized feed of posts, moments, and stories from people who match your interests — curated just for you.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="section how" id="how">
+      <div class="container">
+        <div class="section__head">
+          <span class="pill pill--orange">How It Works</span>
+          <h2 class="section__title">Start Connecting in 3 Easy Steps</h2>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step__num">01</div>
+            <div class="step__icon">📲</div>
+            <h3 class="step__title">Download the App</h3>
+            <p class="step__desc">Get LCNLive free on the App Store or Google Play. Available on iOS and Android.</p>
+          </div>
+          <div class="step__arrow">→</div>
+          <div class="step">
+            <div class="step__num">02</div>
+            <div class="step__icon">🧑‍🎨</div>
+            <h3 class="step__title">Create Your Profile</h3>
+            <p class="step__desc">Set up your avatar, add your interests, and let LCNLive find people who get you.</p>
+          </div>
+          <div class="step__arrow">→</div>
+          <div class="step">
+            <div class="step__num">03</div>
+            <div class="step__icon">🤝</div>
+            <h3 class="step__title">Make New Friends</h3>
+            <p class="step__desc">Join party rooms, play games, chat, and build real friendships that last.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <span class="pill pill--green">Reviews</span>
+          <h2 class="section__title">Loved by Millions</h2>
+          <p class="section__sub">Real stories from real LCNLive users around the world.</p>
+        </div>
+        <div class="reviews__grid">
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">"I've made so many genuine friends on Litmatch. The party rooms are so fun and the people are super welcoming!"</p>
+            <div class="review-card__author">
+              <span class="review-card__avatar">😊</span>
+              <div>
+                <strong>Sarah K.</strong>
+                <span>United States</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card review-card--featured">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">"The Soul Game feature is amazing. I found my best friend through it. LCNLive really understands how to connect people."</p>
+            <div class="review-card__author">
+              <span class="review-card__avatar">🥰</span>
+              <div>
+                <strong>James T.</strong>
+                <span>United Kingdom</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">"Best friend-making app I've ever used. The avatar system is cute and the voice games are hilarious!"</p>
+            <div class="review-card__author">
+              <span class="review-card__avatar">😎</span>
+              <div>
+                <strong>Yuki M.</strong>
+                <span>Japan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DOWNLOAD ===== -->
+    <section class="section download" id="download">
+      <div class="container">
+        <div class="download__inner">
+          <div class="download__text">
+            <span class="pill pill--white">Download Free</span>
+            <h2 class="download__title">Ready to Find Your People?</h2>
+            <p class="download__desc">Join over 50 million users worldwide. LCNLive for free and start making real connections today.</p>
+            <div class="download__btns">
+              <a href="#" class="store-btn">
+                <span class="store-btn__icon">&#xf8ff;</span>
+                <div>
+                  <small>Download on the</small>
+                  <strong>App Store</strong>
+                </div>
+              </a>
+              <a href="#" class="store-btn">
+                <span class="store-btn__icon">▶</span>
+                <div>
+                  <small>Get it on</small>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="download__graphic">
+            <div class="qr-mock">
+              <div class="qr-mock__inner">
+                <div class="qr-grid" id="qrGrid"></div>
+              </div>
+              <p>Scan to Download</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-icon">🔥</span>
+        <span class="nav__logo-text">LCNLive</span>
+        <p>Make New Friends</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Download</a>
+          <a href="#">Updates</a>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 LCNLive. All rights reserved. <em>This is a UI clone for educational purposes.</em></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
